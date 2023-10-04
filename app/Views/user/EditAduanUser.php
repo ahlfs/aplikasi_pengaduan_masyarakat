@@ -55,14 +55,7 @@ $pesan = session()->getFlashdata('pesan');
                                 <?= $validation->getError('keluhan'); ?>
                             </div>
 
-                            <!-- <div class="form-outline mb-4">
-                                <label class="form-label" for="jenis_kelamin">Jenis Kelamin :</label>
-                                <select name="jenis_kelamin" id="jenis_kelamin" value="">
-                                    <option value="Laki-laki" id="jenis_kelamin">Laki-laki</option>
-                                    <option value="Perempuan" id="jenis_kelamin">Perempuan</option>
-                                </select>
-                               
-                            </div> -->
+                           
 
                             <!-- Submit button -->
                             <button type="submit" class="btn btn-primary btn-block btn-lg mb-4">

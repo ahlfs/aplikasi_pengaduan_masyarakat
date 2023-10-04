@@ -66,12 +66,12 @@ $pesan = session()->getFlashdata('pesan');
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-lg"></i></button>
                         </div>
                         <div class="modal-body">
-                            <h6>Id : <?= $adu['id']; ?></h6>
-                            <h6>Name : <?= $adu['name']; ?></h6>
-                            <h6>Price : <?= $adu['telp']; ?></h6>
-                            <h6>Stock : <?= $adu['wilayah']; ?></h6>
-                            <h6>Stock : <?= $adu['judul']; ?></h6>
-                            <h6>Stock : <?= $adu['keluhan']; ?></h6>
+                            <h6>ID : <?= $adu['id']; ?></h6>
+                            <h6>Nama : <?= $adu['name']; ?></h6>
+                            <h6>Nomor Telepon : <?= $adu['telp']; ?></h6>
+                            <h6>Wilayah : <?= $adu['wilayah']; ?></h6>
+                            <h6>Judul : <?= $adu['judul']; ?></h6>
+                            <h6>Keluhan : <?= $adu['keluhan']; ?></h6>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
